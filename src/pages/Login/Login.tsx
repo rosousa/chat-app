@@ -8,7 +8,7 @@ const Login: React.FC = () => {
                 <span className="logo">Chat App</span>
                 <span className="title">Login</span>
                 <form>
-                    <input type="text" placeholder="display name" />
+                    <input type="email" placeholder="email" />
                     <input type="password" placeholder="password" />
                     <button>Sign in</button>
                 </form>

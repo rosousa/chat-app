@@ -1,8 +1,16 @@
 import React from "react";
+import Sidebar from "../../components/Sidebar";
+import Chat from "../../components/Chat";
+import "./style.scss";
 
 const Home: React.FC = () => {
     return (
-        <p>Home</p>
+        <div className="home">
+            <div className="container">
+                <Sidebar />
+                <Chat />
+            </div>
+        </div>
     )
 }
 
